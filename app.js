@@ -31,6 +31,8 @@ app.use('/', index);
 const celebRouter = require('./routes/celebrities.route');
 app.use('/', celebRouter);
 
+const moviesRouter = require('./routes/movies.route')
+app.use('/movies', moviesRouter);
 
 
 
